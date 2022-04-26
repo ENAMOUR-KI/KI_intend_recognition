@@ -13,9 +13,9 @@ This document provides a short definition and description of the posture of each
 
 ## Commands
 
-#### layDown:
+#### lieDown:
 
-The whole body of the dog will lay down.
+The whole body of the dog will lie down.
 
 #### sit:
 
@@ -60,8 +60,7 @@ Command the dog to be petted.
 
 #### paw:
 
-Command the dog to stick out its front paw
-Of dogs, to present one’s paw for a handshake with a human.
+Command the dog to stick out its front paw, to present one’s paw for a handshake with a human.
 
 ## Emotions 
 
