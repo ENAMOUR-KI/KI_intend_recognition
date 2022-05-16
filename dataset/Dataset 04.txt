@@ -1,0 +1,288 @@
+[LieDown]
+lie down
+lie down on the ground
+lie down on the floor
+lie on the ground
+lie on the floor
+lay your body down
+go lie down
+go down
+get some rest
+get down
+please lie down
+now to the ground
+
+
+[Sit]
+sit
+sit down
+sit down on the ground
+sit now please
+please sit now
+be a good boy and sit
+i said sit down
+i want you to sit please
+i need you to sit now
+can you sit
+show me sit
+take a seat
+
+
+[MakeDogJoy]
+i like dogs
+i like you
+such a good boy
+good boy
+good dog
+good job
+great job
+well done
+you are doing great
+you're the best
+amazing
+awesome
+
+
+[MakeDogAffection]
+you look great
+you are a great dog
+you are really nice
+you are cute
+you are the best dog ever
+you are so smart
+you are adorable
+you are a good friend
+you're awesome
+you're amazing
+you are such a sweet dog
+
+
+[TurnAround]
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+[MakeDogAngry]
+i told you to shut up
+i don't like you
+i hate dogs
+i hate you
+i don't want you to touch me 
+don't get on my nerves
+don't touch me
+you are stupid
+you're dumb
+stupid dog
+get away from me
+spike you are annoying
+
+
+[MakeDogFear]
+you look fearful
+you look afraid
+i will take you with me
+you belong to me
+i steal you
+you get no electricity
+your batteries are empty
+you're almost empty
+i will hit you
+i will beat you
+i will talk to your developers
+back in the box spike
+
+
+[MakeDogSad]
+you're a bad dog
+you have no dinner today
+no treat for you
+are you sad
+i am sad
+i have to go
+i am leaving
+i don't like you
+bad dog
+you make me angry
+leave me alone
+you are ugly
+
+
+[EndOfConversation]
+see you later
+i gotta go
+bye bye
+bye
+goodbye
+have a nice day
+i don't want to talk anymore
+bye for now
+see you next week
+i go now
+exit
+exit the conversation
+
+
+[Yes]
+yes
+yeah
+yes please
+okay
+fine
+if you think so
+i do agree
+i agree
+i'll allow it
+sure
+you're right
+sure let's do that
+
+
+[No]
+no
+no thank you
+nope
+nah
+no way 
+absolutely not
+under no circumstances
+false
+i have to disagree
+i can't agree
+that's false
+i don't agree
+
+
+[Move]
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+[Pet]
+can i pet you
+may i touch you
+let me stroke you
+please let me caress you
+i want to cuddle you
+i'd like to hug you
+i'd love to tickle you
+hi can i pet you
+hello can i touch you
+would you please let me touch you
+let's cuddle
+let's hug
+
+
+[FollowMe]
+follow me
+please follow me
+would you please follow me
+come on let's go
+go by my side
+walk with me
+let's leave
+come along with me
+chase me
+come for me
+walk behind me
+move behind me
+
+
+[Walk]
+walk
+patrol slow
+please walk
+can you show me how you walk
+would you please patrol
+go ahead and wander
+go ahead and walk
+please stroll
+go ahead and saunter
+would you please saunter
+please saunter
+go ahead and walk
+
+
+[Run]
+run
+go fast
+hurry up
+go for a run
+sprint
+run as fast as you can
+speed up
+are you able to run
+would you run please
+do a sprint
+start your run
+go as fast as you can
+
+
+[Stop]
+stop
+stop it
+stop this task
+i would appreciate it if you would stop
+stop doing this
+that's enough no more
+please quit that
+that's enough thank you
+i want you to stop please
+please end this
+enough stop please
+end this
+
+
+[Speak]
+speak please
+speak to me
+bark
+can you talk to me please
+say something to me
+speak up
+please say something
+would you like to say something
+may you talk to me
+please talk
+speak with me please
+please talk
+
+
+[Paw]
+paw
+give me your paw
+give paw
+paw please
+give me your hand
+give me a high five boy 
+high five boy
+handshake
+boy please give me your paw
+dog give me your paw
+dog please give me a high five
+dog give me a high five
+
+
+[come]
+come
+come over
+come here
+come to me
+please come
+please come to me
+please come over
+please come here
+come over here
+come back here
+please come back here
+get back here
+
+
+[WAKEWORD]
+Spike
+Hey Spike
+Hello Spike
+What's up Spike
+Ayo Spike
+Spiki
+Hey Spiki
+Hello Spiki
+What's up Spiki
+Ayo Spiki
