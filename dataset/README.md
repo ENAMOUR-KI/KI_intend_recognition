@@ -6,9 +6,7 @@ This document provides a short definition and description of the posture of each
 
 #### Changelog:
 
-- TurnInCircle and TurnAround is merged to TurnAround
-- MakeDogAngry and MakeDogDisgust is merged to MakeDogAngry
-- new Intent: paw, come
+- new Intent: makeDogAffection
 
 
 ## Commands
@@ -66,8 +64,12 @@ Command the dog to stick out its front paw, to present one’s paw for a handsha
 
 #### makeDogJoy:
 
-The dog is happy, when you play with him or something nice to him
+The dog is happy, when you play with him or say something nice to him
 Overall relaxed posture, with a raised head.
+
+#### makeDogAffection:
+
+Responds to a direct compliment. Dog blushes.
 
 #### makeDogAngry:
 
