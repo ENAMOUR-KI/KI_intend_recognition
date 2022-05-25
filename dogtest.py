@@ -23,7 +23,7 @@ class Broker:
     ON_VOLUME_SET            = 'hermes/volume/set'
 
 
-    def __init__(self, user='ocho', password='bw8HEpVA8cUXRex', host='localhost', port=1883, site_id='default') -> None:
+    def __init__(self, user, password, host='localhost', port=1883, site_id='default') -> None:
         self.connected = False
         self.user = user
         self.host = host
@@ -178,8 +178,9 @@ class Broker:
                 incorrect += 1
         return correct / total
 
-
-brkr = Broker()
+mqtt_user = input('Please enter your MQTT username: ')
+mqtt_pw = input('Please enter your MQTT password: ')
+brkr = Broker(mqtt_user, mqtt_pw)
 # brkr.message_loop()
 brkr.evaluation_loop(path='./data/02-M/')
 print('\nAccuracy:', brkr.accuracy())
