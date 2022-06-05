@@ -6,7 +6,7 @@ This document provides a short definition and description of the posture of each
 
 #### Changelog:
 
-- new Intent: makeDogAffection
+- new Intent: fallbackIntent
 
 
 ## Commands
@@ -107,3 +107,7 @@ Agreement
 #### no:
 
 Disagreement
+
+#### fallbackIntent:
+
+Either no intent was recognized or the desired action cannot be executed. 
