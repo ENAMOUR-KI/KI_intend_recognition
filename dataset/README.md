@@ -6,7 +6,9 @@ This document provides a short definition and description of the posture of each
 
 #### Changelog:
 
-- new Intent: fallbackIntent
+- remove Intent: fallbackIntent
+- changed Intent turnAround to turn
+- added Tags to sentences_tags.ini
 
 
 ## Commands
@@ -19,13 +21,17 @@ The whole body of the dog will lie down.
 
 Sit squarely, with hips, knees and hocks aligned nicely, legs kept close to the body, and positioned equally on both sides.
 
-#### turnAround:
+#### turn:
 
 The dog turns in a circle around itself. Like a dog chasing his tail.
+
+Optional tag: direction: ( left | right | around )
 
 #### move:
 
 Command the dog to go in a designated direction or way or change position.
+
+Optional tag: direction: ( forward | backward | left | right )
 
 #### followMe:
 
@@ -34,6 +40,8 @@ Command the dog to follow (who is telling and moving the certain way).
 #### walk:
 
 Command the dog at a slow pace.
+
+Optional tag: direction: ( forward | backward | left | right )
 
 #### come:
 
@@ -108,6 +116,3 @@ Agreement
 
 Disagreement
 
-#### fallbackIntent:
-
-Either no intent was recognized or the desired action cannot be executed. 
