@@ -1,2 +1,2 @@
 # Emotion Classification
-model.zip required to be at this location
+model.zip and emotion_categorial_model.pkl required to be at this location
