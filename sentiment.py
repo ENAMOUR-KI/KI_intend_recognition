@@ -3,11 +3,8 @@ Source: wav2vec 2.0 for speech emotion recognition
 """
 
 import os
-import json
-import audb
 import audeer
 import audonnx
-import audformat
 import audinterface
 import pandas as pd
 import pickle
