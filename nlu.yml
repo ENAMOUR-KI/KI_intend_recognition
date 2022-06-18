@@ -738,7 +738,7 @@ nlu:
     - turn [left] {'entity':'turn','value':'left'}
     - turn [right] {'entity':'turn','value':'right'}
     - turn [around] {'entity':'turn','value':'around'}
-    - do a [360] {'entity':'turn','value':'around'} degree turn
+    - do a [360] {'entity':'turn','value':'around'}
     - turn in [circle] {'entity':'turn','value':'around'}
     - turn around the [axis] {'entity':'turn','value':'around'}
     - make a [circle] {'entity':'turn','value':'around'}
