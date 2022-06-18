@@ -1,28 +1,70 @@
-version: '3.1'
+version: "3.1"
+
 intents:
-- affirm
-- bot_challenge
-- deny
-- goodbye
-- greet
-- mood_great
-- mood_unhappy
-responses:
-  utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
-actions:
-- utter_greet
+  - LieDown
+  - Sit
+  - MakeDogJoy
+  - MakeDogAffection
+  - Turn
+  - MakeDogAngry
+  - MakeDogFear
+  - MakeDogSad
+  - EndOfConversation
+  - Yes
+  - No
+  - Move
+  - Pet
+  - FollowMe
+  - Walk
+  - Run
+  - Stop
+  - Speak
+  - Paw
+  - come 
+
+responses: 
+  utter_LieDown:
+  - text: "LieDown"
+  utter_Sit:
+  - text: "Sit"
+  utter_MakeDogJoy:
+  - text: "MakeDogJoy"
+  utter_MakeDogAffection:
+  - text: "MakeDogAffection"
+  utter_Turn:
+  - text: "Turn"
+  utter_MakeDogAngry:
+  - text: "MakeDogAngry"
+  utter_MakeDogFear:
+  - text: "MakeDogFear"
+  utter_MakeDogSad:
+  - text: "MakeDogSad"
+  utter_EndOfConversation:
+  - text: "EndOfConversation"
+  utter_Yes:
+  - text: "Yes"
+  utter_No:
+  - text: "No"
+  utter_Move:
+  - text: "Move"
+  utter_Pet:
+  - text: "Pet"
+  utter_FollowMe:
+  - text: "FollowMe"
+  utter_Walk:
+  - text: "Walk"
+  utter_Run:
+  - text: "Run"
+  utter_Stop:
+  - text: "Stop"
+  utter_Speak:
+  - text: "Speak"
+  utter_Paw:
+  - text: "Paw"
+  utter_come: 
+  - text: "come"
+
+
+entities:
+  - turn
+  - move
