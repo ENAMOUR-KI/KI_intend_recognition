@@ -175,7 +175,12 @@ class Broker:
                         print('No intent - time out!')
                     self.intent_received = False
 
-
+    def wait(self):
+        self.__loop_start()
+        while True:
+            if self.intent_received:
+                print('--- Intent Received ---')
+		
     def message_loop(self):
         self.__loop_start()
         try:
