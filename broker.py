@@ -9,26 +9,24 @@ import numpy as np
 
 
 class Broker:
-    ALL_SITE_ID                = 'all'
-    ON_HOTWORD_DETECTED        = 'hermes/hotword/+/detected'
-    ON_TTS_SAY                 = 'hermes/tts/say'
-    ON_TTS_SAY_FINISHED        = 'hermes/tts/sayFinished'
-    ON_ASR_TEXT_CAPTURED       = 'hermes/asr/textCaptured'
-    ON_ASR_START_LISTENING     = 'hermes/asr/startListening'
-    ON_ASR_ERROR               = 'hermes/error/asr'
-    ON_ASR_AUDIO_CAPTURED      = 'rhasspy/asr/{siteId}/{sessionId}/audioCaptured'
-    ON_HOTWORD_TOGGLE_ON       = 'hermes/hotword/toggleOn'
-    ON_INTENT_DETECTED         = 'hermes/intent/#'
-    ON_INTENT_NOT_RECOGNIZED   = 'hermes/nlu/intentNotRecognized'
-    ON_INTENT_RECOGNIZED       = 'hermes/nlu/intentParsed'
-    ON_AUDIO_PLAY              = 'hermes/audioServer/{siteId}/playBytes/{requestId}'
-    ON_AUDIO_PLAY_FINISHED     = 'hermes/audioServer/{siteId}/playFinished'
-    ON_VOLUME_SET              = 'hermes/volume/set'
+    ALL_SITE_ID = 'all'
+    ON_HOTWORD_DETECTED = 'hermes/hotword/+/detected'
+    ON_TTS_SAY = 'hermes/tts/say'
+    ON_TTS_SAY_FINISHED = 'hermes/tts/sayFinished'
+    ON_ASR_TEXT_CAPTURED = 'hermes/asr/textCaptured'
+    ON_ASR_START_LISTENING = 'hermes/asr/startListening'
+    ON_ASR_ERROR = 'hermes/error/asr'
+    ON_ASR_AUDIO_CAPTURED = 'rhasspy/asr/{siteId}/{sessionId}/audioCaptured'
+    ON_HOTWORD_TOGGLE_ON = 'hermes/hotword/toggleOn'
+    ON_INTENT_DETECTED = 'hermes/intent/#'
+    ON_INTENT_NOT_RECOGNIZED = 'hermes/nlu/intentNotRecognized'
+    ON_INTENT_RECOGNIZED = 'hermes/nlu/intentParsed'
+    ON_AUDIO_PLAY = 'hermes/audioServer/{siteId}/playBytes/{requestId}'
+    ON_AUDIO_PLAY_FINISHED = 'hermes/audioServer/{siteId}/playFinished'
+    ON_VOLUME_SET = 'hermes/volume/set'
 
-
-    def __init__(self, user='ocho', password='bw8HEpVA8cUXRex', host='localhost', port=1883, site_id='default', audio_callback=None) -> None:
+    def __init__(self, host='192.168.0.40', port=12183, site_id='default', audio_callback=None) -> None:
         self.connected = False
-        self.user = user
         self.host = host
         self.port = port
         self.site_id = site_id
@@ -39,7 +37,6 @@ class Broker:
         self.client.on_disconnect = self.on_disconnect
         self.client.on_message = self.on_message
 
-        self.client.username_pw_set(user, password=password)
         self.client.connect(host, port)
 
         self.current_file = ""
@@ -61,35 +58,32 @@ class Broker:
 
         time.sleep(0.1)
         self.client.subscribe([
-			(self.ON_HOTWORD_DETECTED, 0),
+            (self.ON_HOTWORD_DETECTED, 0),
             (self.ON_INTENT_DETECTED, 0),
-			(self.ON_TTS_SAY, 0),
-			(self.ON_ASR_TEXT_CAPTURED, 0),
-			(self.ON_ASR_START_LISTENING, 0),
+            #(self.ON_TTS_SAY, 0),
+            (self.ON_ASR_TEXT_CAPTURED, 0),
+            (self.ON_ASR_START_LISTENING, 0),
             (self.ON_ASR_AUDIO_CAPTURED.format(siteId=self.site_id, sessionId=self.session_id), 0),
             (self.ON_ASR_ERROR, 0),
-			(self.ON_AUDIO_PLAY_FINISHED.format(siteId=self.site_id), 0),
-			(self.ON_TTS_SAY_FINISHED, 0),
-			(self.ON_INTENT_NOT_RECOGNIZED, 0),
-			(self.ON_INTENT_RECOGNIZED, 0),
-			(self.ON_VOLUME_SET, 0),
-		])
-        
+            #(self.ON_AUDIO_PLAY_FINISHED.format(siteId=self.site_id), 0),
+            #(self.ON_TTS_SAY_FINISHED, 0),
+            (self.ON_INTENT_NOT_RECOGNIZED, 0),
+            (self.ON_INTENT_RECOGNIZED, 0),
+            #(self.ON_VOLUME_SET, 0),
+        ])
+
         if rc == 0:
-                print('Connected succeeded')
-                self.connected = True
+            print('Connected succeeded')
+            self.connected = True
         else:
             print('Connection failed')
-        
 
     def on_disconnect(self, client, userdata, flags, rc):
         '''Called when disconnected from MQTT broker.'''
         client.reconnect()
 
-
     def on_message(self, client, userdata, msg: mqtt.MQTTMessage):
         '''Called each time a message is received on a subscribed topic.'''
-
 
         payload = {}
         if hasattr(msg, 'payload') and msg.payload:
@@ -105,23 +99,29 @@ class Broker:
 
             except UnicodeDecodeError:
                 # Payload contains audio data
-                payload = np.fromstring(msg.payload, np.int16)
-                payload = payload.astype(np.float32, order='C') / 32768.0
-                if callable(self.audio_callback):
-                    self.audio_callback(payload)
-                
+	            payload = np.fromstring(msg.payload, np.int16)
+	            payload = payload.astype(np.float32, order='C') / 32768.0
+	            if callable(self.audio_callback):
+	                self.audio_callback(payload)
+
+        if msg.topic == self.ON_HOTWORD_DETECTED:
+            print('Hotword detected...')
+            self.client.publish('hermes/asr/startListening', json.dumps({'siteId': self.site_id, 'sessionId': self.session_id, 'stopOnSilence': False, 'sendAudioCaptured': True}))
 
         if msg.topic == self.ON_INTENT_RECOGNIZED:
+            self.client.publish('hermes/asr/stopListening', json.dumps({'siteId': self.site_id, 'sessionId': self.session_id}))
+
             self.current_intent = payload['intent']['intentName']
             self.intent_received = True
 
             if self.target_intent is not None:
-                print('Target: \t', self.target_intent)
+                pass  # print('Target: \t', self.target_intent)
             print('Predicted:\t', self.current_intent)
 
             if self.target_intent is not None:
-                self.test_log[self.current_file] = (self.current_sentence, self.current_intent, self.target_intent)
-                
+                self.test_log[self.current_file] = (
+                    self.current_sentence, self.current_intent, self.target_intent)
+
         if msg.topic == self.ON_INTENT_NOT_RECOGNIZED:
             print('Error: intent not recognized')
             self.intent_received = True
@@ -130,19 +130,18 @@ class Broker:
             self.current_sentence = payload['text']
             print('Recognized:\t', self.current_sentence)
 
-            self.client.publish('hermes/nlu/query', json.dumps({'input': self.current_sentence, 'siteId': self.site_id}))
+            self.client.publish(
+                'hermes/nlu/query', json.dumps({'input': self.current_sentence, 'siteId': self.site_id}))
 
         if msg.topic == self.ON_ASR_AUDIO_CAPTURED:
             print('AUDIO')
 
-
     def __loop_start(self):
         self.client.loop_start()
-        
+
         while self.connected != True:
             print('Waiting for connection...')
             time.sleep(0.1)
-
 
     def evaluation_loop(self, path='./data/', chunksize=1000000):
         self.__loop_start()
@@ -159,14 +158,17 @@ class Broker:
                     print("\nTesting:\t", self.current_file)
                     wavbytes = f.read()
 
-                    self.client.publish('hermes/asr/startListening', json.dumps({'siteId': self.site_id, 'sessionId': self.session_id, 'stopOnSilence': False, 'sendAudioCaptured': True}))
+                    self.client.publish('hermes/asr/startListening', json.dumps(
+                        {'siteId': self.site_id, 'sessionId': self.session_id, 'stopOnSilence': False, 'sendAudioCaptured': True}))
                     time.sleep(0.1)
 
-                    self.client.publish(f'hermes/audioServer/{self.site_id}/audioFrame', wavbytes)
+                    self.client.publish(
+                        f'hermes/audioServer/{self.site_id}/audioFrame', wavbytes)
                     time.sleep(0.1)
 
-                    self.client.publish('hermes/asr/stopListening', json.dumps({'siteId': self.site_id, 'sessionId': self.session_id}))
-                    
+                    self.client.publish('hermes/asr/stopListening', json.dumps(
+                        {'siteId': self.site_id, 'sessionId': self.session_id}))
+
                     for i in range(500):
                         if self.intent_received:
                             break
@@ -177,21 +179,24 @@ class Broker:
 
     def wait(self):
         self.__loop_start()
+        time.sleep(0.1)
+
         while True:
             if self.intent_received:
-                print('--- Intent Received ---')
-		
+                # print('--- Intent Received ---')
+                self.intent_received = False
+
     def message_loop(self):
         self.__loop_start()
         try:
             while True:
                 message = input('Send message: ')
-                self.client.publish('hermes/nlu/query', json.dumps({'input': message, 'siteId': self.site_id}))
+                self.client.publish(
+                    'hermes/nlu/query', json.dumps({'input': message, 'siteId': self.site_id}))
                 time.sleep(0.1)
         except KeyboardInterrupt:
             self.client.disconnect()
             self.client.loop_stop()
-
 
     def accuracy(self):
         total = len(self.test_log)
@@ -205,9 +210,9 @@ class Broker:
                 incorrect += 1
         return correct / total
 
-
     def send_message(self, message):
-        self.client.publish('hermes/nlu/query', json.dumps({'input': message, 'siteId': self.site_id}))
+        self.client.publish(
+            'hermes/nlu/query', json.dumps({'input': message, 'siteId': self.site_id}))
 
 
 if __name__ == '__main__':
