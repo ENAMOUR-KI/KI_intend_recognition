@@ -34,5 +34,10 @@ def callback(audio):
 if __name__ == '__main__':
     ea = EmotionAnalyser(categorial_output=True, show_confidence=False)
     broker = Broker(audio_callback=callback)
-    broker.evaluation_loop(path='./data/02-M/')
-    print('\nAccuracy:', broker.accuracy())
+    
+    # Active wait for Rhasspy event
+    broker.wait()
+    
+    # Generate Rhasspy events from Python
+    # broker.evaluation_loop(path='./data/02-M/')
+    # print('\nAccuracy:', broker.accuracy())
