@@ -36,7 +36,7 @@ if __name__ == '__main__':
     broker = Broker(audio_callback=callback)
     
     # Active wait for Rhasspy event
-    broker.wait()
+    broker.loop()
     
     # Generate Rhasspy events from Python
     # broker.evaluation_loop(path='./data/02-M/')
