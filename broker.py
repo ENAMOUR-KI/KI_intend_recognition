@@ -182,7 +182,10 @@ class Broker:
                     self.intent_received = False
 
     def loop(self):
-        self.client.loop_forever()
+        self.__loop_start()
+        while True:
+            if self.intent_received:
+		self.intent_received = False
 
     def message_loop(self):
         self.__loop_start()
