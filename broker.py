@@ -72,7 +72,7 @@ class Broker:
 		])
         
         if rc == 0:
-                print('Connected succeeded')
+                print('Connection succeeded')
                 self.connected = True
         else:
             print('Connection failed')
@@ -85,22 +85,21 @@ class Broker:
 
     def on_message(self, client, userdata, msg: mqtt.MQTTMessage, show_not_for_me=False):
         '''Called each time a message is received on a subscribed topic.'''
-
-        siteId = payload.get('siteId')
-        is_for_me = siteId == self.site_id
-
-        if not is_for_me:
-            if show_not_for_me:
-                print('Message received but was not for me')
-            return False
-
-
         payload = {}
         topic = str(msg.topic).strip()
 
         if hasattr(msg, 'payload') and msg.payload:
             try:
+                siteId = payload.get('siteId')
+                is_for_me = siteId == self.site_id
+
+                if not is_for_me:
+                    if show_not_for_me:
+                        print('Message received but was not for me')
+                    return False
+
                 payload = json.loads(msg.payload.decode('UTF-8'))
+
             except UnicodeDecodeError:
                 # Payload contains audio data
                 pass
