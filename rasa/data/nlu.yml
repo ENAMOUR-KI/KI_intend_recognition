@@ -1,0 +1,2152 @@
+version: "3.1"
+nlu:
+- intent: LieDown
+  examples: |
+    - lie down
+    - lie down on the ground
+    - lie down on the floor
+    - lie down on the bed
+    - lie down on your bed
+    - lie down on your side
+    - lie down on your tummy
+    - lie down on your belly
+    - lie down on your stomach
+    - lie down on the sofa
+    - lie on your stomach on the bed
+    - lie on your belly 
+    - lie on your tummy
+    - lie on your stomach
+    - lie on the ground
+    - lie on the floor
+    - lie in your bed
+    - lie on the bed
+    - lie on your bed
+    - lie on the sofa
+    - lay your body down
+    - lay your body down on the ground
+    - lay your body down and sleep
+    - lay your body down please
+    - lay your body and sleep 
+    - go lie down
+    - go to the ground
+    - go to the floor
+    - go lay your body down 
+    - go to sleep
+    - go into your bed and lie down
+    - go relax 
+    - go down to the ground
+    - go down 
+    - go snooze 
+    - go doze
+    - go lie down in your bed
+    - go to your bed and relax
+    - go to your bed and sleep
+    - go to your bed and relax or sleep
+    - now lie down
+    - now lie
+    - now relax
+    - now sleep
+    - now lay your body down
+    - now lay your body on the ground
+    - now lay your body on the floor 
+    - now down to the ground
+    - now drop it 
+    - now get some rest
+    - now rest
+    - now on the ground
+    - now to the ground
+    - now nap
+    - now in your bed
+    - get some rest
+    - get some sleep
+    - get down boy
+    - get down 
+    - get down on the floor
+    - get down to the ground
+    - get on the ground
+    - get on the floor
+    - get on your knees 
+    - please lay your body down
+    - please lie
+    - please lie down
+    - please sleep
+    - please rest
+    - please nap 
+    - please take a nap
+    - please lay down and sleep in your bad
+    - please take a rest on the ground
+    - please take a rest in your bed
+    - please lay down and take a nap
+    - i said down 
+    - i said lie down 
+    - i said take a nap 
+    - i said rest 
+    - i said nap
+    - i said snooze
+    - i said doze
+    - i said doze off
+    - i said to lie down
+    - i said to lie
+    - i said to rest
+    - i said to snooze
+    - i said to nap
+    - i said to doze
+    - i said to doze off 
+    - i said it is time to sleep
+    - i said it is time to take a nap
+    - i said it is time to nap
+    - i said it is time to rest
+    - i said it is time to lie
+    - i said it is time to lie down 
+    - i said it is time to doze 
+    - i said it is time to doze off
+    - i said it's time to sleep
+    - i said it's time to take a nap
+    - i said it's time to nap
+    - i said it's time to rest
+    - i said it's time to lie
+    - i said it's time to lie down 
+    - i said it's time to doze 
+    - i said it's time to doze off
+    - i want you to lie down flat on your back
+    - i want you to lie down on your back
+    - i want you to lie down
+    - i want you to lie
+    - i want you to take a nap
+    - i want you to go to your bed and sleep
+    - i want you to sleep
+    - i want you to nap
+    - i want you to doze 
+    - i want you to doze off 
+    - i want you to snooze
+    - i want you to lie on the ground
+    - i want you to lie in the bed and sleep
+    - i think you should lie 
+    - i think you should lie down
+    - i think you should sleep
+    - i think you should rest
+    - i think you should nap 
+    - i Think you should snooze
+    - i think you should get in a prone position
+    - i think you should be lying on the ground
+    - i think you should be lying on the floor
+    - i think you should be lying
+    - show me lie down
+    - show me how you lie down
+    - show me to lie down
+    - show me how to lie down 
+    - show me how you lay your body down
+    - show me how you rest
+    - show me how you nap 
+    - can you show me lay your body down
+    - can you show me how to lay your body down
+    - can you show me how you lay your body down
+    - can you show me how to lie down
+    - can you show me how you lie down
+    - can you relax in your bed please
+    - can you show me lie down
+    - can you lie down on your bed and sleep
+    - can you lie down
+    - can you lie down on the ground
+    - can you lie down on the floor
+    - can you put yourself in a supine position
+    - can you position yourself in a supine position
+    - can you take a nap 
+    - can you take a rest
+    - can you take your body to the floor
+    - can you take yourself to the floor
+    - can you take your body to the ground
+    - can you take yourself to the ground
+    - can you lie down for a moment
+    - can you lie down for a second
+    - could you lie down for a second
+    - could you lie down for a moment
+    - could you show me lay your body down
+    - could you show me how to lay your body down
+    - could you show me how you lay your body down
+    - could you show me how to lie down
+    - could you show me how you lie down
+    - could you relax in your bed please
+    - could you show me lie down
+    - could you lie down on your bed and sleep
+    - could you lie down
+    - could you lie down on the ground
+    - could you lie down on the floor
+    - could you put yourself in a supine position
+    - could you position yourself in a supine position
+    - could you take a nap 
+    - could you take a rest
+    - could you take your body to the floor
+    - could you take yourself to the floor
+    - could you take your body to the ground
+    - could you take yourself to the ground
+    - be relaxed
+    - be sleepy
+    - be tired
+    - be on the ground 
+    - be on the floor
+    - are you tired
+    - are you sleepy
+    - are you relaxed
+    - you are sleepy
+    - you are tired
+    - you are going to lie down 
+    - you are going to lie 
+    - you are relaxed
+    - move your body to the ground
+    - move your body on the ground
+    - move to the floor
+    - move to the ground
+    - on the floor
+    - on your knees
+    - on the ground 
+    - to the ground
+    - to the floor 
+    - to your knees 
+    - snooze time
+    - bed time 
+    - nap time
+    - rest time
+    - time to go to sleep
+    - time to go to bed 
+    - time to nap 
+    - time to rest 
+    - time to take a nap
+    - time to snooze
+    - time to doze off
+    - time to doze
+    - time to relax
+    - it's time to go to bed
+    - it's time to go to sleep
+    - it's bed time
+    - it's time to take a nap
+    - it's time to relax
+    - it's time to rest
+    - it's time to lie down
+    - it's time to lay your body down 
+    - it's time to doze 
+    - it's time to doze off 
+    - it's time to snooze
+    - it is time to go to bed
+    - it is time to go to sleep
+    - it is bed time
+    - it is time to take a nap 
+    - it is time to relax
+    - it is time to rest 
+    - it is time to lie down
+    - it is time to lay your body down 
+    - it is time to doze 
+    - it is time to doze off 
+    - it is time to snooze
+    - take a nap 
+    - take a rest
+    - take your body to the floor
+    - take yourself to the floor
+    - take your body to the ground
+    - take yourself to the ground
+    - assume a supine position
+    - assume a prone position
+    - position yourself in a supine position
+    - position yourself horizontally on the ground
+    - kneel on the ground 
+    - kneel on the floor
+    - kneel 
+    - put your head down on the ground
+    - put yourself in a supine position
+    - put yourself in a reclining position
+    - put your belly on the ground
+    - put your belly on the floor
+    - put your tummy to the ground
+    - put your tummy to the floor
+    - place down 
+    - place your body down
+    - place your body down on the floor
+    - place your body down on the ground
+    - place your body down to the floor
+    - place your body down to the ground
+    - place yourself down
+    - place yourself down on the ground
+    - place yourself down on the floor
+    - place yourself down to the ground
+    - place yourself down to the floor
+    - place yourself in a supine position
+    - would you mind to relax
+    - would you mind to sleep
+    - would you mind to nap
+    - would you mind to lying down
+    - would you mind to lie down
+    - would you mind to lie in your bed
+    - would you mind to go to your bed
+    - would you mind to go to sleep
+    - would you mind to rest
+    - let us lie down
+    - let us lie
+    - let us rest
+    - let us nap
+    - let us relax
+    - let's lie
+    - let's lie down
+    - let's rest
+    - let's nap
+    - let's relax
+    - i need you to rest
+    - i need you to sleep
+    - i need you to lie 
+    - i need you to lie down
+    - i need you to relax
+    - i need you to take a nap
+    - i need you to nap
+    - i need you to go to the ground
+    - i need you to go to the floor
+    - i need you to lie on the ground
+    - i need you to lie on the floor
+    - sit or lie down so that you are flat on your belly
+    - sit or lie down so that you are flat on your tummy
+    - sit or lie down so that you are flat on your stomach
+    - drop to the ground
+    - drop to the floor
+    - drop down
+    - drop down now
+    - sleep now
+    - lie now 
+    - lie down now
+    - lay your body down now
+    - lay your body on the ground now
+    - lay your body on the floor now
+    - relax now
+    - drop it now
+    - get some rest now
+    - get some sleep now
+    - nap now
+    - rest now
+    - to the ground now
+    - ground now
+    - time to rest now
+    - time to nap now
+    - time to take a nap now
+    - on the ground now
+    - doze now
+    - doze off now 
+    - kneel now
+    - kneel on the ground now 
+    - kneel on the floor now
+    - lie please
+    - lie down please
+    - lie on the ground please 
+    - lie on the floor please
+    - lie down on the floor please
+    - lie down on the ground please
+    - may you lie on the ground please
+    - may you lie on the ground 
+    - may you lie
+    - may you lie down 
+    - may you rest
+    - take a rest please 
+    - sleep please
+    - nap please
+    - take a nap please
+    - rest please
+    - doze please
+    - snooze please
+    - relax
+    - down
+    - ground
+    - down spike
+    - drop it
+    - drop
+    - snooze
+    - doze
+    - nap
+    - rest
+    - lie 
+    - couch
+    - bed
+    - crash
+    - recline
+- intent: Sit
+  examples: |
+    - sit 
+    - sit down
+    - sit down immediately
+    - sit now
+    - sit on your butt
+    - sit on your bum
+    - sit on your bottom
+    - sit down on the ground
+    - sit down on the floor
+    - sit down on the ground now
+    - sit down on the floor now
+    - sit down on your butt
+    - sit down on your bottom
+    - sit down on your bum
+    - sit please
+    - sit down please
+    - sit down immediately please
+    - sit now please
+    - sit down on your butt please
+    - sit down on your bum please
+    - sit down on your bottom please
+    - please sit
+    - please sit down on your butt
+    - please sit down on your bum
+    - please sit down
+    - please sit down on the ground
+    - please sit down on the floor
+    - please sit down immediately
+    - please sit now
+    - please be a good boy and sit
+    - please be a good dog and sit 
+    - please be a good boy and sit down 
+    - please be a good dog and sit down 
+    - be a good boy and sit
+    - be a good dog and sit 
+    - be a good boy and sit down 
+    - be a good dog and sit down 
+    - be a good boy and sit please
+    - be a good dog and sit please
+    - be a good boy and sit down please
+    - be a good dog and sit down please
+    - be seated
+    - i told you sit
+    - i told you sit down
+    - i told you sit down now 
+    - i told you to sit
+    - i told you to sit down 
+    - i told you to sit now 
+    - i told you to sit down now
+    - i told you to sit down immediately
+    - i told you to sit immediately
+    - i told you to be a good boy and sit
+    - i told you to be a good dog and sit 
+    - i told you to be a good boy and sit down 
+    - i told you to be a good dog and sit down 
+    - i told you to be a good boy and sit please
+    - i told you to be a good dog and sit please
+    - i told you to be a good boy and sit down please
+    - i told you to be a good dog and sit down please
+    - i told you to be seated
+    - i told you to please sit
+    - i told you to please sit down on your butt
+    - i told you to please sit down on your bum
+    - i told you to please sit down
+    - i told you to please sit down on the ground
+    - i told you to please sit down on the floor
+    - i told you to please sit down immediately
+    - i told you to please sit now
+    - i told you to please be a good boy and sit
+    - i told you to please be a good dog and sit 
+    - i told you to please be a good boy and sit down 
+    - i told you to please be a good dog and sit down 
+    - i said sit
+    - i said sit down
+    - i said to sit 
+    - i said to sit down 
+    - i said to sit down immediately
+    - i said to sit immediately 
+    - i want you to sit 
+    - i want you to sit down
+    - i want you to sit down immediately
+    - i want you to sit now
+    - i want you to sit on your butt
+    - i want you to sit on your bum
+    - i want you to sit on your bottom
+    - i want you to sit down on the ground
+    - i want you to sit down on the floor
+    - i want you to sit down on the ground now
+    - i want you to sit down on the floor now
+    - i want you to sit down on your butt
+    - i want you to sit down on your bottom
+    - i want you to sit down on your bum
+    - i want you to sit please
+    - i want you to sit down please
+    - i want you to sit down immediately please
+    - i want you to sit now please
+    - i want you to sit down on your butt please
+    - i want you to sit down on your bum please
+    - i want you to sit down on your bottom please
+    - i want you to please sit
+    - i want you to please sit down on your butt
+    - i want you to please sit down on your bum
+    - i want you to please sit down
+    - i want you to please sit down on the ground
+    - i want you to please sit down on the floor
+    - i want you to please sit down immediately
+    - i want you to please sit now
+    - i want you to please be a good boy and sit
+    - i want you to please be a good dog and sit 
+    - i want you to please be a good boy and sit down 
+    - i want you to please be a good dog and sit down 
+    - i want you to be a good boy and sit
+    - i want you to be a good dog and sit 
+    - i want you to be a good boy and sit down 
+    - i want you to be a good dog and sit down 
+    - i want you to be a good boy and sit please
+    - i want you to be a good dog and sit please
+    - i want you to be a good boy and sit down please
+    - i want you to be a good dog and sit down please
+    - i want you to be seated
+    - i need you to sit 
+    - i need you to sit down
+    - i need you to sit down immediately
+    - i need you to sit now
+    - i need you to sit on your butt
+    - i need you to sit on your bum
+    - i need you to sit on your bottom
+    - i need you to sit down on the ground
+    - i need you to sit down on the floor
+    - i need you to sit down on the ground now
+    - i need you to sit down on the floor now
+    - i need you to sit down on your butt
+    - i need you to sit down on your bottom
+    - i need you to sit down on your bum
+    - i need you to sit please
+    - i need you to sit down please
+    - i need you to sit down immediately please
+    - i need you to sit now please
+    - i need you to sit down on your butt please
+    - i need you to sit down on your bum please
+    - i need you to sit down on your bottom please
+    - i need you to please sit
+    - i need you to please sit down on your butt
+    - i need you to please sit down on your bum
+    - i need you to please sit down
+    - i need you to please sit down on the ground
+    - i need you to please sit down on the floor
+    - i need you to please sit down immediately
+    - i need you to please sit now
+    - i need you to please be a good boy and sit
+    - i need you to please be a good dog and sit 
+    - i need you to please be a good boy and sit down 
+    - i need you to please be a good dog and sit down 
+    - can you sit down please
+    - can you sit
+    - can you sit down
+    - can you show me sit down
+    - can you show me sit
+    - can you show me how to sit 
+    - can you show me how to sit down
+    - can you show me how you sit 
+    - can you show me how you sit down
+    - show me sit down
+    - show me sit
+    - show me sit immediately
+    - show me how you sit 
+    - show me how to sit down
+    - show me how you sit down
+    - show me how to sit
+    - may you sit
+    - may you sit down
+    - may you show me to sit
+    - may you sit please
+    - may you sit down please
+    - may you show me to sit please 
+    - may you show me to sit down please
+    - take a seat 
+    - take a chair
+    - take a seat please
+    - take a chair please
+    - please take a chair
+    - please take a seat
+    - go and sit 
+    - go and sit down
+    - go and sit down immediately
+    - go and sit now
+    - go and sit on your butt
+    - go and sit on your bum
+    - go and sit on your bottom
+    - go and sit down on the ground
+    - go and sit down on the floor
+    - go and sit down on the ground now
+    - go and sit down on the floor now
+    - go and sit down on your butt
+    - go and sit down on your bottom
+    - go and sit down on your bum
+    - go and sit please
+    - go and sit down please
+    - go and sit down immediately please
+    - go and sit now please
+    - go and sit down on your butt please
+    - go and sit down on your bum please
+    - go and sit down on your bottom please
+- intent: MakeDogJoy
+  examples: |
+    - i love you
+    - i love dogs
+    - i like dogs
+    - i like you
+    - i adore dogs
+    - i adore you
+    - i appreciate you
+    - i appreciate dogs
+    - i appreciate it
+    - i enjoy your company
+    - i really enjoy your company
+    - i really appreciate it
+    - i really appreciate you
+    - i really like you 
+    - i really like dogs
+    - i like spending time with you
+    - i really like spending time with you 
+    - thank you
+    - thank you a lot
+    - thank you very much
+    - thank you lots
+    - thank you so much
+    - thanks a lot
+    - thanks
+    - thanks so much
+    - such a good boy
+    - such a good dog
+    - such a good little boy
+    - such a good little dog
+    - such a sweet boy
+    - such a sweet dog
+    - that is a good boy
+    - that is a good dog
+    - that's a good boy
+    - that's a good dog
+    - good boy
+    - good dog
+    - good job
+    - good job buddy
+    - good job pal
+    - nice job
+    - nice job buddy
+    - nice job pal
+    - great job
+    - great job buddy 
+    - great job pal
+    - amazing job
+    - amazing job buddy
+    - amazing job pal 
+    - awesome job
+    - awesome job buddy
+    - awesome job pal
+    - well done
+    - well done buddy
+    - well done pal
+    - well done spike
+    - who's a good boy
+    - who's a good dog
+    - who is a good boy 
+    - who is a good dog
+    - doing great
+    - doing good
+    - doing awesome 
+    - doing amazing
+    - you did great
+    - you did good
+    - you did amazing
+    - you did awesome
+    - you did very good
+    - you are doing great
+    - you are doing good
+    - you are doing amazing
+    - you are doing fine
+    - you are doing perfect
+    - you are doing very good
+    - you're doing great
+    - you're doing good
+    - you're doing amazing
+    - you're doing fine
+    - you're doing perfect
+    - you're doing very good
+    - you're sweet
+    - you're adorable
+    - you're the best
+    - you're a good friend
+    - you're such a good boy
+    - you're such a good dog
+    - you're such a good little boy
+    - you're such a good little dog
+    - breathtaking
+    - amazing
+    - stunning
+    - incredible
+    - magnificent
+    - very good
+    - really good 
+    - good
+    - awesome
+    - wonderful
+    - impressive
+    - badass
+- intent: MakeDogAffection
+  examples: |
+    - you look great
+    - you are amazing
+    - you are awesome
+    - i like your ears
+    - i like your legs
+    - you are a great friend
+    - you are in great shape
+    - you are so fast
+    - you are a great dog
+    - you are a good dog
+    - you are such a great dog
+    - you are such a good dog
+    - you are the best robot dog
+    - i like you more than real dogs
+    - you are nice
+    - you are really nice
+    - you are sweet
+    - you are adorable
+    - you are the best
+    - you are a good friend
+    - you look cute
+    - you are cute
+    - you are the best dog ever
+    - you are so clever
+    - you are so smart
+    - you're nice
+    - you're really nice
+    - you're perfect
+    - you're breathtaking
+    - you're absolutely breathtaking
+    - you're awesome
+    - you're amazing 
+    - you're incredible 
+    - you're stunning
+    - you're magnificent
+    - you're extraordinary
+    - you're wonderful
+    - you're impressive
+    - you're badass
+    - you're such a sweet boy
+    - you're such a sweet dog
+    - you are such a good boy
+    - you are such a good dog
+    - you are such a good little boy
+    - you are such a good little dog
+    - you are such a sweet boy
+    - you are such a sweet dog
+    - you are perfect
+    - you are breathtaking
+    - you are absolutely breathtaking
+    - you are awesome
+    - you are amazing 
+    - you are incredible 
+    - you are stunning
+    - you are magnificent
+    - you are extraordinary
+    - you are wonderful
+    - you are impressive
+    - you are badass
+- intent: Turn
+  examples: |
+    - do a [360](turn)
+    - turn [left](turn)
+    - turn [right](turn)
+    - turn [around](turn)
+    - do a [360](turn)
+    - turn in [circle](turn)
+    - turn around the [axis](turn)
+    - make a [circle](turn)
+    - take a look [around](turn)
+    - take a look [around](turn)
+    - make a turn [left](turn)
+    - make a turn [right](turn)
+    - make a turn [around](turn)
+    - turn [left](turn)
+    - turn [right](turn)
+    - turn [around](turn)
+    - please turn [left](turn)
+    - please turn [right](turn)
+    - please turn [around](turn)
+    - can you show me to turn [left](turn)
+    - can you show me to turn [right](turn)
+    - can you show me to turn [around](turn)
+    - may you turn [left](turn)
+    - may you turn [right](turn)
+    - may you turn [around](turn)
+    - may you show me to turn [left](turn)
+    - may you show me to turn [right](turn)
+    - may you show me to turn [around](turn)
+    - show me to turn [left](turn)
+    - show me to turn [right](turn)
+    - show me to turn [around](turn)
+    - spike turn [left](turn)
+    - spike turn [right](turn)
+    - spike turn [around](turn)
+    - spike please do a [360](turn)
+    - spike turn [left](turn)
+    - spike turn [right](turn)
+    - spike turn [around](turn)
+    - spike where is your [tail](turn)
+    - spike turn around to catch your [tail](turn)
+    - spike catch your [tail](turn)
+    - grab your [tail](turn)
+    - go and chase your [tail](turn)
+    - spike [tail](turn)
+    - go grab your [tail](turn)
+- intent: MakeDogAngry
+  examples: |
+    - i told you to shut up 
+    - i told you to be quiet
+    - i don't like you
+    - i do not like you
+    - i despise you
+    - i despise dogs
+    - i hate dogs
+    - i hate you
+    - i hate that
+    - i don't want you to approach me
+    - i do not want you to approach me
+    - i don't want you to touch me 
+    - i do not want you to touch me
+    - i don't want you to cross me
+    - i don't want you to anger me
+    - i do not want you to cross me
+    - i do not want you to anger me
+    - i do not want you to make me mad
+    - i don't want you to make me mad
+    - don't get on my nerves
+    - don't arouse my anger
+    - don't touch me
+    - don't make me mad
+    - don't cross me
+    - do not get on my nerves
+    - do not arouse my anger
+    - do not touch me
+    - do not make me mad
+    - do not cross me
+    - you are stupid
+    - you are really stupid
+    - you are dumb
+    - ou are really dumb
+    - you're stupid 
+    - you're really stupid
+    - you're dumb
+    - stupid
+    - angry
+    - bad dog
+    - stupid dog
+    - stop
+    - stop spike
+    - stop that
+    - stop it
+    - out
+    - quiet
+    - be quiet
+    - get away from me
+    - leave me alone
+    - go away
+    - spike I hate you
+    - please don't annoy me
+    - don't annoy me spike
+    - spike you are annoying
+    - spike please shut up
+    - come on spike leave me alone
+    - you are a weird dog
+    - you are a bad dog
+    - I wish you were a cat
+    - you are annoying spike
+    - spike please stop annoying me
+    - how can you be such an annoying dog
+    - i hate dogs like you
+    - now go away and never come again
+    - you are so annoying
+    - you are so troublesome spike
+- intent: MakeDogFear
+  examples: |
+    - fear
+    - i am going to kill you
+    - i am going to punch you
+    - i am going to slap you
+    - i am going to kick your as
+    - i will kick your ass
+    - i will kill you
+    - i will punch you
+    - i will slap you 
+    - you look fearful
+    - you look afraid
+    - i pursue you 
+    - do not look like that 
+    - you get into my nerve
+    - i will take you with me 
+    - you belong to me 
+    - i steal you 
+    - i will murder you 
+    - i turn you off 
+    - you get no electricity 
+    - your batteries are empty 
+    - you're almost empty   
+    - i beat you 
+    - i defeat you 
+    - i knock you 
+    - i will hit you 
+    - i will strike you 
+    - i will beat you 
+    - i will steal you 
+    - i am selling you 
+    - it thunders 
+    - i'm about to scream 
+    - i will talk to your developers 
+    - dread 
+    - i will dread you 
+    - dread spike 
+    - i hate you  
+    - i hate dogs
+    - i loathe spike 
+    - i abominate dogs 
+    - i detest you 
+    - back in the box spike 
+    - straight into your box 
+    - now it's over
+- intent: MakeDogSad
+  examples: |
+    - sad
+    - you are a bad dog
+    - you're a bad dog
+    - you are a bad boy
+    - you're a bad boy
+    - you have no dinner today
+    - you have no food today
+    - you have no food
+    - you have no dinner
+    - you have no treat 
+    - no food for you
+    - no dinner for you
+    - no treat for you
+    - no food
+    - no dinner
+    - no treat
+    - are you sad
+    - you are sad
+    - you're sad
+    - i am sad
+    - i am going to leave you
+    - i have to leave you
+    - i have to go 
+    - i am leaving
+    - i have to leave you now
+    - i have to go now
+    - i am going to leave you now
+    - i do not like you
+    - i don't like you
+    - i hate you
+    - i dislike you
+    - not nice 
+    - bad dog 
+    - not cool 
+    - i punish you 
+    - that gives a penalty 
+    - i don't like you 
+    - i am evil 
+    - you make me angry 
+    - go away 
+    - leave me alone 
+    - go away now 
+    - you're dumb 
+    - you look bad 
+    - don't look like a dog 
+    - you are not a real dog 
+    - failure 
+    - that was bad 
+    - i have to cry 
+    - cry 
+    - bad weather today 
+    - do not talk to me 
+    - you look fake 
+    - you are ugly 
+    - you look weird
+    - today is not a good day 
+    - today is a stupid day 
+    - i'm in a bad mood 
+    - be sad spike 
+    - mournful 
+    - be mournful 
+    - i'm cheerless
+    - i'm unhappy today 
+    - be unhappy 
+    - unhappy spike 
+    - it's raining today 
+    - it is a rainy day 
+    - i'm sad 
+    - that's not nice spike 
+    - that was wrong 
+    - wrong action 
+    - wrong spike 
+    - we will not see us anymore 
+    - i will miss you 
+    - miss you spike 
+- intent: EndOfConversation
+  examples: |
+    - see you later
+    - see you again
+    - i gotta go
+    - bye bye 
+    - bye
+    - end of conversation
+    - stop conversation
+    - ciao 
+    - goodbye 
+    - i'm off
+    - have a nice day 
+    - see you soon 
+    - talk to you later 
+    - take care 
+    - good night 
+    - peace out 
+    - i'm out 
+    - i'm out of here 
+    - ciao ciao 
+    - see you tomorrow
+    - break up 
+    - i don't want to talk anymore 
+    - stop it 
+    - stop
+    - spike stop
+    - stop dog
+    - bye for now 
+    - bye dog  
+    - see you next week 
+    - i have to go on 
+    - be quiet
+    - quiet 
+    - i go 
+    - calm now 
+    - calm 
+    - i have an appointment 
+    - i go now 
+    - that's it 
+    - i have to go to the bus 
+    - my bus is coming 
+    - i have to leave quickly 
+    - finish this 
+    - am gone 
+    - i don't want to hear anything 
+    - break up 
+    - break up spike 
+    - exit 
+    - exit the conversation 
+    - terminate the conversation  
+    - finalize that 
+    - cancel
+    - cancel the conversation 
+    - stop barking 
+    - stop the barking now 
+    - finish barking
+    - no more sound 
+    - no more noise 
+    - stop the noise 
+- intent: Yes
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - yah
+    - yes please
+    - okay
+    - precisely
+    - agreed
+    - all right
+    - alright
+    - oke
+    - ok
+    - why not
+    - well enough
+    - very well
+    - of course
+    - fine
+    - fine if you think so 
+    - fine if you think that way
+    - fine if that is how you think
+    - fine if that is your opinion
+    - fine if that is your thinking
+    - fine if that is your point of view
+    - fine if that is what you want
+    - fine if that is what you like
+    - fine if that's your opinion
+    - fine if that's your thinking
+    - fine if that's your point of view
+    - fine if that's how you think
+    - fine if that's what you want
+    - fine if that'S what you like
+    - if you think so 
+    - if that is what you want
+    - if that's what you want
+    - i am fine with that
+    - i am fine with this 
+    - i am fine with it 
+    - i am okay with that
+    - i am okay with this
+    - i am okay with it
+    - i am alright with that
+    - i am alright with this
+    - i am alright with it
+    - i am of the same opinion
+    - i am of the same mind
+    - i'm fine with that
+    - i'm fine with this 
+    - i'm fine with it 
+    - i'm okay with that
+    - i'm okay with this
+    - i'm okay with it
+    - i'm alright with that
+    - i'm alright with this
+    - i'm alright with it
+    - i'm of the same opinion
+    - i'm of the same mind
+    - i do
+    - i do agree
+    - i do agree with your opinion
+    - i do agree with your point of view
+    - i do agree with your thinking
+    - i do agree with how you think
+    - i do believe you are correct
+    - i do believe you are right 
+    - i do believe it to be correct
+    - i do believe your opinion to be correct
+    - i do have to agree with you 
+    - i do have to agree
+    - i do think i can agree to that 
+    - i do think i can agree with you 
+    - i agree with you
+    - i agree
+    - i have to agree
+    - i have to agree with you
+    - i have to agree on that
+    - i have to agree on this
+    - i have to agree on it
+    - i have no objections
+    - i have no objection
+    - i have no objection to your request
+    - i have no objection to that
+    - i have no objection to this 
+    - i have no objection to it
+    - i think you are right 
+    - i think you are correct
+    - i think i have to agree
+    - i think i have to agree with you
+    - i think i have to agree with your opinion
+    - i think i have to agree with your point of view
+    - i think i have to agree with your thinking
+    - i will go along with it 
+    - i will go along with that
+    - i will go along with this
+    - i will accept it 
+    - i will accept that
+    - i will accept this
+    - i will accept your opinion
+    - i will accept your point of view
+    - i will accept your thinking
+    - i will allow this
+    - i will allow it
+    - i will allow that
+    - i will have to accept it
+    - i will have to agree with it
+    - i will have to like it
+    - i will have to go along with it 
+    - i will have to allow it
+    - i will have to accept this
+    - i will have to agree with this
+    - i will have to like this
+    - i will have to go along with this 
+    - i will have to allow this
+    - i will have to accept that
+    - i will have to agree with that
+    - i will have to like that
+    - i will have to go along with that 
+    - i will have to allow that
+    - i will have to accept your opinion
+    - i will have to agree with your opinion
+    - i will have to like your opinion
+    - i will have to go along with your opinion
+    - i will have to allow your opinion
+    - i'll accept your opinion
+    - i'll go along with it 
+    - i'll go along with that
+    - i'll go along with this
+    - i'll accept it 
+    - i'll accept that
+    - i'll accept this
+    - i'll allow this
+    - i'll allow it
+    - i'll allow that
+    - i'll have to accept it
+    - i'll have to agree with it
+    - i'll have to like it
+    - i'll have to go along with it 
+    - i'll have to allow it
+    - i'll have to accept this
+    - i'll have to agree with this
+    - i'll have to like this
+    - i'll have to go along with this 
+    - i'll have to allow this
+    - i'll have to accept that
+    - i'll have to agree with that
+    - i'll have to like that
+    - i'll have to go along with that 
+    - i'll have to allow that
+    - i'll have to accept your opinion
+    - i'll have to agree with your opinion
+    - i'll have to like your opinion
+    - i'll have to go along with your opinion
+    - i'll have to allow your opinion
+    - we can agree on that
+    - we can agree on this
+    - we can agree on it 
+    - we see eye to eye
+    - we seem to see eye to eye
+    - let's agree on that
+    - let's agree on this 
+    - let's agree on it 
+    - let us agree on that
+    - let us agree on this
+    - let us agree on it 
+    - fine then
+    - okay then
+    - alright then
+    - sure 
+    - sure thing
+    - sure why not
+    - you are right
+    - you are correct
+    - you're right 
+    - you're correct
+    - okay let us do that
+    - sure let us do that 
+    - alright let us do that
+    - okay let us do it 
+    - sure let us do it 
+    - alright let us do it
+    - sure let's do that 
+    - alright let's do that
+    - okay let's do that
+    - sure let's do it
+    - alright let's do it 
+    - okay let's do it
+- intent: No
+  examples: |
+    - no
+    - no thank you
+    - no thanks
+    - nope
+    - nope thank you
+    - nope thanks
+    - nah
+    - nah thank you
+    - nah thanks 
+    - naw
+    - naw thank you
+    - naw thanks
+    - never 
+    - never in my life
+    - not in this lifetime
+    - no way 
+    - absolutely not
+    - most certainly not 
+    - under no circumstances
+    - not at all
+    - not on your life
+    - false
+    - inaccurate 
+    - i beg to differ
+    - i am disagreeing
+    - i disagree with you 
+    - i find it to be wrong
+    - i find it to be incorrect 
+    - i find it to be inaccurate
+    - i find it to be false
+    - i find you to be wrong
+    - i find you to be incorrect
+    - i have to disagree
+    - i have to disagree with you
+    - i have to disagree on that
+    - i have to disagree on this 
+    - i have to disagree on it
+    - i will have to disagree
+    - i will have to disagree on that 
+    - i will have to disagree on this 
+    - i will have to disagree on it
+    - i will not agree 
+    - i will not agree on that
+    - i will never agree
+    - i won't agree
+    - i won't agree on that
+    - i cannot agree on that
+    - i cannot agree
+    - i cannot agree on this 
+    - i cannot agree with you 
+    - i cannot agree with you on that
+    - i cannot agree with you on this 
+    - i cannot agree on it 
+    - i cannot agree at all
+    - i can not agree on that
+    - i can not agree
+    - i can not agree on this 
+    - i can not agree with you 
+    - i can not agree with you on that
+    - i can not agree with you on this 
+    - i can not agree on it 
+    - i can not agree at all
+    - i can't agree on that
+    - i can't agree
+    - i can't agree on this 
+    - i can't agree with you 
+    - i can't agree with you on that
+    - i can't agree with you on this 
+    - i can't agree on it 
+    - i can't agree at all
+    - i could never agree to that
+    - i could never agree with that
+    - i could never think like that
+    - i could never think the way you do 
+    - i could never agree to your opinion
+    - i could never agree to your thinking 
+    - i could never be of the same opinion 
+    - i most certainly disagree with that
+    - i most certainly can not agree to that 
+    - i most certainly could never agree to that 
+    - i most certainly may never agree to that 
+    - i most certainly do not agree
+    - i most certainly don't agree
+    - never would i agree to that 
+    - never would i agree on that 
+    - never would i agree with you
+    - never would i agree with your opinion 
+    - never would i agree with your thinking 
+    - never in my life would i agree to that
+    - never in my life would i agree with you 
+    - never in my life would i agree on that
+    - there is no way i will agree
+    - there is no way i will agree with you 
+    - there is no way i will agree with that
+    - there is no way i will agree with your opinion 
+    - there is no way i will agree with your point of view
+    - there is no way i will agree with your thinking
+    - there's no way i will agree
+    - there's no way i will agree with you 
+    - there's no way i will agree with that
+    - there's no way i will agree with your opinion 
+    - there's no way i will agree with your point of view
+    - there's no way i will agree with your thinking
+    - that is a no 
+    - that is a no from me 
+    - that is a no from me dog
+    - that is a hard no
+    - that is wrong
+    - that is false
+    - that is incorrect
+    - that is inaccurate
+    - that's a hard no
+    - that's a no from me
+    - that's a no from me dog
+    - that's a no
+    - that's wrong
+    - that's false
+    - that's incorrect
+    - that's inaccurate
+    - you are wrong 
+    - you are incorrect
+    - you are completely wrong
+    - you are mistaken
+    - you are false
+    - you're wrong
+    - you're incorrect
+    - you're completely wrong
+    - you're mistaken
+    - you're false
+    - i do not
+    - i do not agree
+    - i do not agree with you
+    - i do not think so 
+    - i don't
+    - i don't think so
+    - i don't agree
+    - i don't agree with you
+    - i believe you are wrong
+    - i believe you are incorrect
+    - i believe you're wrong
+    - i believe you're incorrect
+    - i believe you to be incorrect 
+    - i believe you to be wrong
+    - i believe you to be false
+    - we do not see eye to eye
+    - we do not see eye to eye here
+    - we don't see eye to eye here
+    - we don't see eye to eye
+    - we are not on the same side 
+    - we are not on the same side here
+    - we are not of the same opinion
+    - we are not of the same opinion here
+    - we aren't on the same side
+    - we aren't on the same side here
+    - we aren't of the same opinion
+    - we aren't of the same opinion here 
+    - why would i agree to that 
+    - why would i be of the same opinion 
+    - why would i agree with you
+    - why would i have the same opinion
+    - why would i be on your side
+    - why would i agree to this
+    - why would i agree to it 
+    - why would i see eye to eye with you on that
+    - why would you think i would agree on that 
+    - why would you think i'd agree on that 
+    - i would not do that 
+    - i would not want to do that 
+    - i would not agree with that 
+    - i would not agree to that
+    - i would not agree on that 
+    - i would like to disagree
+    - i wouldn't do that
+    - i wouldn't want ot do that 
+    - i wouldn't agree on that
+    - i wouldn't agree to that
+    - i would rather not agree
+    - i would rather disagree
+    - i would rather do something else
+    - i'd rather not agree
+    - i'd rather disagree
+    - i'd rather do something else
+    - let us not agree on that
+    - let us think about that
+    - let us come up with something different 
+    - let us come up wit something else
+    - let's think about that
+    - let's come up with something different
+    - let's come up with something else
+    - let's not agree on that
+    - did you really think i would agree to that
+    - did you really think i would agree on that 
+    - did you really think i would see eye to eye with you
+    - you did not think i would agree to that did you 
+    - you did not think i would be of the same opinion did you 
+    - you didn't think i would agree on that did you
+    - you didn't think i would be of the same opinion did you
+    - you didn't think i'd be of the same opinion did you 
+    - you didn't think i'd agree on that did you
+    - you really thought i would agree on that
+    - you really thought i would agree to that 
+    - you really thought i would agree with you 
+- intent: Move
+  examples: |
+    - move away [forward](move)
+    - move away [backward](move)
+    - move away [left](move)
+    - move away [right](move)
+    - move [forward](move)
+    - move [backward](move)
+    - move [left](move)
+    - move [right](move)
+    - move to the [forward](move)
+    - move to the [backward](move)
+    - move to the [left](move)
+    - move to the [right](move)
+    - move there [forward](move)
+    - move there [backward](move)
+    - move there [left](move)
+    - move there [right](move)
+    - move this way [forward](move)
+    - move this way [backward](move)
+    - move this way [left](move)
+    - move this way [right](move)
+    - move aside [forward](move)
+    - move aside [backward](move)
+    - move aside [left](move)
+    - move aside [right](move)
+    - move please [forward](move)
+    - move please [backward](move)
+    - move please [left](move)
+    - move please [right](move)
+    - move aside please [forward](move)
+    - move aside please [backward](move)
+    - move aside please [left](move)
+    - move aside please [right](move)
+    - move in that direction [forward](move)
+    - move in that direction [backward](move)
+    - move in that direction [left](move)
+    - move in that direction [right](move)
+    - step aside [forward](move)
+    - step aside [backward](move)
+    - step aside [left](move)
+    - step aside [right](move)
+    - shift [forward](move)
+    - shift [backward](move)
+    - shift [left](move)
+    - shift [right](move)
+    - shift dog [forward](move)
+    - shift dog [backward](move)
+    - shift dog [left](move)
+    - shift dog [right](move)
+    - scoot [forward](move)
+    - scoot [backward](move)
+    - scoot [left](move)
+    - scoot [right](move)
+    - scoot dog [forward](move)
+    - scoot dog [backward](move)
+    - scoot dog [left](move)
+    - scoot dog [right](move)
+    - away with you [forward](move)
+    - away with you [backward](move)
+    - away with you [left](move)
+    - away with you [right](move)
+    - begone [forward](move)
+    - begone [backward](move)
+    - begone [left](move)
+    - begone [right](move)
+    - begone dog [forward](move)
+    - begone dog [backward](move)
+    - begone dog [left](move)
+    - begone dog [right](move)
+    - be gone [forward](move)
+    - be gone [backward](move)
+    - be gone [left](move)
+    - be gone [right](move)
+    - be gone dog [forward](move)
+    - be gone dog [backward](move)
+    - be gone dog [left](move)
+    - be gone dog [right](move)
+    - go [forward](move)
+    - go [backward](move)
+    - go [left](move)
+    - go [right](move)
+    - go away [forward](move)
+    - go away [backward](move)
+    - go away [left](move)
+    - go away [right](move)
+    - go out of my way [forward](move)
+    - go out of my way [backward](move)
+    - go out of my way [left](move)
+    - go out of my way [right](move)
+    - go out of my sight [forward](move)
+    - go out of my sight [backward](move)
+    - go out of my sight [left](move)
+    - go out of my sight [right](move)
+    - go out of the sight [forward](move)
+    - go out of the sight [backward](move)
+    - go out of the sight [left](move)
+    - go out of the sight [right](move)
+    - time to step aside [forward](move)
+    - time to step aside [backward](move)
+    - time to step aside [left](move)
+    - time to step aside [right](move)
+    - you should get moving [forward](move)
+    - you should get moving [backward](move)
+    - you should get moving [left](move)
+    - you should get moving [right](move) 
+    - do you mind moving [forward](move)
+    - do you mind moving [backward](move)
+    - do you mind moving [left](move)
+    - do you mind moving [right](move)
+    - do you mind moving out of my way [forward](move)
+    - do you mind moving out of my way [backward](move)
+    - do you mind moving out of my way [left](move)
+    - do you mind moving out of my way [right](move)
+    - would you be kind enough to move [forward](move)
+    - would you be kind enough to move [backward](move)
+    - would you be kind enough to move [left](move)
+    - would you be kind enough to move [right](move)
+    - would you be kind enough to move out of the way [forward](move)
+    - would you be kind enough to move out of the way [backward](move)
+    - would you be kind enough to move out of the way [left](move)
+    - would you be kind enough to move out of the way [right](move)
+    - change your position [forward](move)
+    - change your position [backward](move)
+    - change your position [left](move)
+    - change your position [right](move)
+    - change the position [forward](move)
+    - change the position [backward](move)
+    - change the position [left](move)
+    - change the position [right](move)
+    - position change [forward](move)
+    - position change [backward](move)
+    - position change [left](move)
+    - position change [right](move)
+- intent: Pet
+  examples: |
+    - can i pet you
+    - can i touch you
+    - can i stroke you
+    - can i caress you
+    - can i cuddle you
+    - can i hug you
+    - can i tickle you
+    - can i pet you please
+    - can i touch you please
+    - can i stroke you please
+    - can i caress you please
+    - can i cuddle you please
+    - can i hug you please
+    - can i tickle you please
+    - may i pet you
+    - may i touch you
+    - may i stroke you
+    - may i caress you
+    - may i cuddle you please
+    - may i hug you
+    - may i tickle you
+    - may i pet you please
+    - may i touch you please
+    - may i stroke you please
+    - may i caress you please
+    - may i cuddle you
+    - may i hug you please
+    - may i tickle you please
+    - let me pet you
+    - let me touch you
+    - let me stroke you
+    - let me caress you
+    - let me cuddle you
+    - let me hug you
+    - let me tickle you
+    - please let me pet you
+    - please let me touch you
+    - please let me stroke you
+    - please let me caress you
+    - please let me cuddle you
+    - please let me hug you
+    - please let me tickle you
+    - i want to pet you
+    - i want to touch you
+    - i want to stroke you
+    - i want to caress you
+    - i want to cuddle you
+    - i want to hug you
+    - i want to tickle you
+    - i'd like to pet you
+    - i'd like to touch you
+    - i'd like to stroke you
+    - i'd like to caress you
+    - i'd like to cuddle you
+    - i'd like to hug you
+    - i'd like to tickle you
+    - i'd love to pet you
+    - i'd love to touch you
+    - i'd love to stroke you
+    - i'd love to caress you
+    - i'd love to cuddle you
+    - i'd love to hug you
+    - i'd love to tickle you
+    - hi can i pet you
+    - hi can i touch you
+    - hi can i stroke you
+    - hi can i caress you
+    - hi can i cuddle you
+    - hi can i hug you
+    - hi can i tickle you
+    - hello can i pet you
+    - hello can i touch you
+    - hello can i stroke you
+    - hello can i caress you
+    - hello can i cuddle you
+    - hello can i hug you
+    - hello can i tickle you
+    - would you please let me tickle you
+    - would you please let me pet you
+    - would you please let me touch you
+    - would you please let me stroke you
+    - would you please let me caress you
+    - would you please let me cuddle you
+    - would you please let me hug you
+    - let's cuddle
+    - let's hug
+- intent: FollowMe
+  examples: |
+    - follow me
+    - follow me please
+    - follow me closely
+    - please follow me
+    - can you follow me
+    - may you follow me
+    - would you please follow me
+    - i'd like you to follow me
+    - i would like you to follow me
+    - come with me
+    - come with me please
+    - please come with me
+    - come on let's go
+    - here we go
+    - go by my side
+    - walk with me
+    - stick with me
+    - let's go
+    - let's go for a walk
+    - let's leave
+    - we're leaving
+    - by foot
+    - heel
+    - at my heels
+    - after me
+    - accompany me
+    - chase me
+    - come after me
+    - come along with me
+    - go with me
+    - join me
+    - keep an eye on me
+    - stalk me
+    - you follow me
+    - come for me
+    - catch me
+    - catch up to me
+    - walk behind me
+    - tag along
+    - tag along behind me
+    - keep up with me
+    - keep up
+    - tag after
+    - tag after me
+    - shadow me
+    - keep me in sight
+    - follow my trail
+    - be on my tail
+    - keep pace with me
+    - move behind
+    - move behind me
+    - spy on me
+    - spy me
+- intent: Walk
+  examples: |
+    - walk
+    - stroll
+    - patrol
+    - wander
+    - saunter
+    - walk slow
+    - stroll slow
+    - patrol slow
+    - wander slow
+    - saunter slow
+    - walk please
+    - stroll please
+    - patrol please
+    - wander please
+    - saunter please
+    - can you walk
+    - can you stroll
+    - can you patrol
+    - can you wander
+    - can you saunter
+    - please walk
+    - please stroll
+    - please patrol
+    - please wander
+    - please saunter
+    - may you walk
+    - may you stroll
+    - may you patrol
+    - may you wander
+    - may you saunter
+    - can you walk please
+    - show me how you walk
+    - show me how you stroll
+    - show me how you patrol
+    - show me how you wander
+    - show me how you saunter
+    - can you show me how you walk
+    - can you show me how you stroll
+    - can you show me how you patrol
+    - can you show me how you wander
+    - can you show me how you saunter
+    - would you please walk
+    - would you please stroll
+    - would you please patrol
+    - would you please wander
+    - would you please saunter
+    - go ahead and walk
+    - go ahead and stroll
+    - go ahead and patrol
+    - go ahead and wander
+    - go ahead and saunter
+- intent: Run
+  examples: |
+    - run
+    - run away
+    - run to this spot
+    - please run
+    - can you run
+    - faster
+    - walk fast
+    - go fast
+    - move quickly
+    - hurry up
+    - run fast to this place
+    - move quickly to this place
+    - start running
+    - go for a run
+    - take a run
+    - jog
+    - go running
+    - start running please
+    - run for a while
+    - run a bit
+    - let's go for a run
+    - i'm going for a run want to join
+    - i'm going to start running
+    - can you run to this place
+    - would you be able to run
+    - walk faster please
+    - come on you have to go faster
+    - start your run
+    - sprint
+    - do a sprint
+    - can you sprint to this place
+    - run for a bit
+    - sprint a bit
+    - run as fast as you can
+    - quickly run to the finish
+    - go as fast as you can
+    - walk quickly
+    - run at your full speed
+    - move faster
+    - run as fast as possible
+    - go as fast as possible
+    - speed up
+    - speed up please
+    - please run faster
+    - are you able to run
+    - can you run faster
+    - please run to me
+    - can you run to me
+    - quickly come to me
+    - go there as fast as you can
+    - sprint to this place
+    - do a run please
+    - run faster
+    - speed up a bit
+    - would you run please
+    - can you walk very fast
+    - walk very fast
+    - walk as fast as you can
+- intent: Stop
+  examples: |
+    - stop
+    - stop it
+    - exit
+    - please stop
+    - cancel it
+    - cancel
+    - stop this task
+    - please cease what you are doing
+    - can you please stop
+    - i would appreciate it if you would stop
+    - would it be possible if you stop that
+    - interrupt that
+    - can you interrupt that please
+    - please interrupt that what you are doing
+    - stop doing this
+    - interrupt the task
+    - that's enough no more
+    - cut it out
+    - knock it off
+    - quit it
+    - quit what you are doing
+    - please quit that
+    - can you please not do that
+    - that's enough thank you
+    - discontinue
+    - end
+    - halt
+    - end this
+    - give this a end
+    - stop that's enough
+    - i don't want you to do this anymore
+    - i want you to stop please
+    - terminate
+    - bring this to a end
+    - terminate what you are doing
+    - no longer continue please
+    - stop doing this thing
+    - please halt
+    - please end
+    - could you please stop
+    - please stop this
+    - interrupt this please
+    - are you able to stop this
+    - are you able to interrupt what you are doing
+    - may you interrupt this thing
+    - please give this thing an end
+    - please bring this to an end
+    - terminate now
+    - are you able to end this
+    - please end this
+    - stop this stupid thing
+    - bring this to an end please
+    - don't continue this
+    - stop continuing this
+    - enough stop please
+    - can you please bring this to an end
+- intent: Speak
+  examples: |
+    - speak
+    - speak please
+    - speak to me
+    - bark 
+    - bark please
+    - whisper
+    - speak louder please
+    - enough
+    - tell me something
+    - talk
+    - talk to me 
+    - can you tell me something
+    - can you talk to me please
+    - say something to me
+    - tell me what you have to say
+    - i want to hear what you have to say
+    - what do you have to say
+    - speak up
+    - pardon me
+    - can you repeat that
+    - what did you say
+    - speak with me
+    - speak something please
+    - speak something
+    - communicate with me
+    - please say something
+    - can you say something
+    - would you like to say something
+    - i would like to hear you say something
+    - what would you like to say
+    - can you talk with me
+    - may you talk to me
+    - is it possible that you say something
+    - may you say something
+    - i would like to do a conversation with you
+    - can you communicate with me
+    - is it possible for you to speak with me
+    - i would like to hear you talk
+    - express spoken words
+    - articulate
+    - pronounce
+    - please talk
+    - please say some words
+    - say some words
+    - come say something
+    - please talk with me
+    - may you say something to me
+    - please whisper
+    - whisper some words please
+    - speak with me please
+    - please speak
+    - come on and speak with me
+    - talk with me now
+    - tell me a secret
+    - can you tell me a secret
+    - please show me your voice
+    - can you show ne your voice
+    - are you able to say something
+    - are you able to speak with me
+    - are you able to communicate with me
+- intent: Paw
+  examples: |
+    - paw
+    - paw boy
+    - paw dog
+    - paw spike
+    - paw please
+    - paw please boy
+    - paw please dog
+    - paw please spike
+    - boy paw 
+    - dog paw 
+    - spike paw
+    - give me your paw
+    - give me your paw boy
+    - give me your paw dog
+    - give me your paw spike
+    - give me your paw please
+    - give paw
+    - give paw please
+    - give me your hand
+    - give me a high five
+    - give me a high five boy 
+    - give me a high five dog
+    - give me a high five spike
+    - give me a high five please
+    - please give me your paw 
+    - please give me your paw boy
+    - please give me your paw dog
+    - please give me your paw spike
+    - please give me a high five
+    - high five
+    - high five boy 
+    - high five dog
+    - high five spike
+    - high five please
+    - handshake
+    - handshake boy
+    - handshake dog 
+    - handshake spike
+    - shake my hand
+    - shake my hand boy 
+    - shake my hand dog 
+    - shake my hand spike
+    - boy please give me your paw 
+    - dog please give me your paw
+    - spike please give me your paw
+    - boy give me your paw
+    - dog give me your paw
+    - spike give me your paw
+    - boy please give me a high five
+    - dog please give me a high five
+    - spike please give me a high five
+    - boy high five
+    - dog high five
+    - spike high five
+    - boy give me a high five
+    - dog give me a high five
+    - spike give me a high five
+- intent: come
+  examples: |
+    - come
+    - come boy
+    - come dog 
+    - come spike
+    - come over 
+    - come over boy
+    - come over dog
+    - come over spike
+    - come here
+    - come here boy 
+    - come here dog
+    - come here spike
+    - come to me
+    - come to me boy
+    - come to me dog
+    - come to me spike
+    - please come 
+    - please come boy
+    - please come dog
+    - please come spike
+    - please come to me
+    - please come to me boy
+    - please come to me dog
+    - please come to me spike
+    - please come over 
+    - please come over boy 
+    - please come over dog
+    - please come over spike
+    - please come here
+    - please come here boy
+    - please come here dog
+    - please come here spike
+    - boy come over 
+    - dog come over
+    - spike come over
+    - boy come here
+    - dog come here
+    - spike come here
+    - boy come to me
+    - dog come to me
+    - spike come to me
+    - boy please come 
+    - dog please come
+    - spike please come 
+    - boy please come to me
+    - dog please come to me
+    - spike please come to me
+    - boy please come here
+    - dog please come here
+    - spike please come here
+    - boy please come over
+    - dog please come over
+    - spike please come over
+    - come over here
+    - come over here boy
+    - come over here dog
+    - come over here spike
+    - please come over here 
+    - please come over here boy
+    - please come over here dog
+    - please come over here spike
+    - boy please come over here
+    - dog please come over here
+    - spike please come over here
+    - boy come over here
+    - dog come over here
+    - spike come over here
+    - step over here
+    - step over here boy
+    - step over here dog
+    - step over here spike
+    - please step over here
+    - please step over here boy
+    - please step over here dog
+    - please step over here spike
+    - boy please step over here
+    - dog please step over here
+    - spike please step over here
+    - boy step over here
+    - dog step over here 
+    - spike step over here
+    - come back here
+    - come back here boy
+    - come back here dog 
+    - come back here spike
+    - please come back here 
+    - please come back here boy
+    - please come back here dog
+    - please come back here spike
+    - boy please come back here
+    - dog please come back here
+    - spike please come back here
+    - boy come back here
+    - dog come back here
+    - spike come back here
+    - get back here
+    - get back here boy
+    - get back here dog 
+    - get back here spike
+    - please get back here
+    - please get back here boy
+    - please get back here dog
+    - please get back here spike
+    - boy please get back here 
+    - dog please get back here
+    - spike please get back here
+    - boy get back here
+    - dog get back here
+    - spike get back here
+    - get your ass back here
+    - get your ass back here boy
+    - get your ass back here dog 
+    - get your ass back here spike 
+    - boy get your ass back here
+    - dog get your ass back here
+    - spike get your ass back here
+    - ass back here 
+    - ass back here boy
+    - ass back here dog 
+    - ass back here spike
+    - boy ass back here
+    - dog ass back here
+    - spike ass back here
+    - ass over here
+    - ass over here boy
+    - ass over here dog
+    - ass over here spike
+    - boy ass over here 
+    - dog ass over here 
+    - spike ass over here
+    - join me
+    - join me boy
+    - join me dog
+    - join me spike
+    - please join me 
+    - please join me boy
+    - please join me dog 
+    - please join me spike
+    - boy please join me
+    - dog please join me
+    - spike please join me
+    - boy join me
+    - dog join me
+    - spike join me
+    - return here
+    - return here boy
+    - return here dog 
+    - return here spike
+    - please return here 
+    - please return here boy
+    - please return here dog
+    - please return here spike
+    - boy please return here
+    - dog please return here
+    - spike please return here
+    - boy return here
+    - dog return here 
+    - spike return here
