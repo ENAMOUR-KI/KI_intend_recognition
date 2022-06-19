@@ -1,0 +1,420 @@
+0, go to the ground
+0, go lay your body down
+0, now lie down
+0, now drop it
+0, i said down
+0, i said it is time to sleep
+0, i want you to lie down
+0, on your knees
+0, it's time to go to bed
+0, take your body to the floor
+0, drop it now
+0, get some rest now
+0, get some sleep now
+0, nap now
+0, sit down
+0, sit down immediately
+0, sit now
+0, i told you sit down
+0, i told you to sit
+0, i told you to sit down
+0, i told you to sit down immediately
+0, i said sit down
+0, i said to sit
+0, go and sit
+0, go and sit down
+0, circle
+0, circle please
+0, turn around
+0, make a turn
+0, spike turn around
+0, go grab your tail
+0, i told you to shut up
+0, i told you to be quiet
+0, i don't like you
+0, i hate dogs
+0, i don't want you to touch me
+0, don't get on my nerves
+0, you are stupid
+0, you are really stupid
+0, stupid dog
+0, stop that
+0, stop it
+0, out
+0, get away from me
+0, go away
+0, you are a bad dog
+0, I wish you were a cat
+0, i hate dogs like you
+0, you are so annoying
+0, i am going to kill you
+0, i will kick your ass
+0, i will kill you
+0, i will punch you
+0, i will murder you
+0, i turn you off
+0, i will hit you
+0, i hate you
+0, i hate dogs
+0, back in the box spike
+0, straight into your box
+0, you're a bad dog
+0, you're a bad boy
+0, you have no dinner today
+0, no food for you
+0, no dinner for you
+0, i don't like you
+0, i hate you
+0, i dislike you
+0, bad dog
+0, i punish you
+0, you make me angry
+0, go away
+0, leave me alone
+0, go away now
+0, you're dumb
+0, that's not nice spike
+0, that was wrong
+0, i'm off
+0, i'm out of here
+0, i don't want to talk anymore
+0, stop it
+0, stop dog
+0, be quiet
+0, i don't want to hear anything
+0, break up spike
+0, stop the barking now
+0, stop the noise
+0, well enough
+0, fine if you think so
+0, if that is what you want
+0, if that's what you want
+0, i will accept this
+0, no
+0, no thank you
+0, never in my life
+0, not in this lifetime
+0, no way
+0, absolutely not
+0, i will never agree
+0, i won't agree
+0, never would i agree to that
+0, that is wrong
+0, that is false
+0, that's wrong
+0, i wouldn't do that
+0, move away
+0, away with you
+0, go away
+0, go out of my way
+0, out with you
+0, you are in the way
+0, out of my way boy
+0, stop standing around
+0, come with me
+0, walk with me
+0, stick with me
+0, move behind me
+0, spy on me
+0, stop it
+0, interrupt that
+0, stop doing this
+0, that's enough no more
+0, end this
+0, stop that's enough
+0, i want you to stop please
+0, stop doing this thing
+0, terminate now
+0, stop this stupid thing
+0, don't continue this
+0, stop continuing this
+0, enough stop please
+0, come dog
+0, boy come over
+0, come back here
+0, come back here boy
+0, get back here
+0, ass back here
+0, ass over here boy
+0, return here spike
+1, i want you to be a good dog and sit down please
+1, can i touch you please
+1, i believe you are incorrect
+1, please end this
+1, to the floor
+1, please sit down on your bum
+1, boy ass back here
+1, doze please
+1, awesome job
+1, spike please stop annoying me
+1, quiet
+1, i need you to lie on the floor
+1, i would like to hear you say something
+1, patrol
+1, i said it is time to nap
+1, do a 360 degree turn
+1, place yourself down to the ground
+1, you are breathtaking
+1, run away
+1, please come back here boy
+1, bye for now
+1, that's a no
+1, be on the ground
+1, go lie down
+1, i want you to please sit down on your butt
+1, i need you to sit on your bum
+1, why would i be of the same opinion
+1, i'll have to accept your opinion
+1, it is time to rest
+1, i'll allow that
+1, dog ass back here
+1, time to leave me alone
+1, i have to disagree on it
+1, i most certainly do not agree
+1, good dog
+1, heel
+1, i'm unhappy today
+1, i need to pass
+1, exit
+1, rest
+1, i want you to be a good dog and sit please
+1, can you patrol
+1, you're such a good dog
+1, that was bad
+1, spike you are annoying
+1, move behind
+1, please come over dog
+1, are you able to speak with me
+1, i will strike you
+1, please sit down immediately
+1, doing amazing
+1, handshake boy
+1, sit down on your bum
+1, saunter
+1, you're wrong
+1, that is a no from me dog
+1, i will have to allow this
+1, let us relax
+1, time to be gone
+1, can you show me lie down
+1, give me a high five spike
+1, let me pass
+1, turn to the side
+1, doze now
+1, say some words
+1, let's lie down
+1, walk faster please
+1, i'll have to like your opinion
+1, get some sleep
+1, i do agree with how you think
+1, you're correct
+1, i will allow it
+1, go and sit down immediately
+1, i won't agree on that
+1, fine
+1, boy join me
+1, can you show me how to sit down
+1, i steal you
+1, please come boy
+1, sure thing
+1, go and sit down on your butt please
+1, fine if that is your thinking
+1, sit down on your bum please
+1, i like spending time with you
+1, there's no way i will agree with you
+1, i will take you with me
+1, do you mind moving
+1, lay your body and sleep
+1, hi can i stroke you
+1, i will miss you
+1, move to the floor
+1, may you talk to me
+1, great job
+1, it is time to go to bed
+1, nap please
+1, yep
+1, please take a chair
+1, turn in circles
+1, would you like to say something
+1, bring this to a end
+1, you really thought i would agree to that
+1, i will have to accept your opinion
+1, let us nap
+1, i will have to like your opinion
+1, would you be kind enough to move out of the way
+1, cry
+1, articulate
+1, let's get moving
+1, i abominate dogs
+1, did you really think i would agree to that
+1, i'll accept it
+1, please move to the left
+1, get back here dog
+1, sit down on your butt
+1, i need you to please sit down on your butt
+1, boy give me your paw
+1, please show me your voice
+1, nice job pal
+1, let me touch you
+1, take a chair
+1, follow me closely
+1, i find you to be incorrect
+1, spike give me a high five
+1, you did good
+1, did you really think i would agree on that
+1, you're stupid
+1, please let me stroke you
+1, thank you
+1, there's no way i will agree
+1, i'm of the same opinion
+1, can you saunter
+1, do you mind moving out of my way
+1, it is time to take a nap
+1, change the position
+1, walk slow
+1, fine if that's how you think
+1, go out of my sight
+1, high five
+1, could you take your body to the floor
+1, spike come here
+1, i will have to allow it
+1, i will slap you
+1, please speak
+1, i could never agree to your opinion
+1, that gives a penalty
+1, may i caress you
+1, show me how you stroll
+1, put your belly on the ground
+1, can you show me how you sit down
+1, i need you to please be a good boy and sit
+1, sit down immediately please
+1, i told you to sit down now
+1, it is time to doze
+1, i want to stroke you
+1, nope
+1, i would like you to follow me
+1, lie on your bed
+1, stop
+1, i want you to sit
+1, thanks
+1, down
+1, please stroll
+1, would you mind to lying down
+1, lie on your stomach on the bed
+1, may i tickle you please
+1, can you move aside
+1, snooze time
+1, you're the best
+1, please rest
+1, can you show me how you walk
+1, go and sit down on the floor
+1, can you turn
+1, i told you sit
+1, peace out
+1, i like your ears
+1, good boy
+1, there is no way i will agree
+1, you're in my way
+1, come over boy
+1, i said to sit down immediately
+2, i love you
+2, i love dogs
+2, i like dogs
+2, i adore dogs
+2, i appreciate you
+2, i enjoy your company
+2, i really enjoy your company
+2, i really appreciate it
+2, i really like you
+2, i really like spending time with you
+2, thank you very much
+2, thank you so much
+2, such a good boy
+2, good job buddy
+2, well done
+2, who's a good boy
+2, you did great
+2, you did very good
+2, you are doing amazing
+2, you are the best
+2, you are a good friend
+2, you are wonderful
+2, you're doing amazing
+2, you're doing fine
+2, you're absolutely breathtaking
+2, you're wonderful
+2, you're impressive
+2, you're such a good boy
+2, see you later
+2, have a nice day
+2, good night
+2, see you tomorrow
+2, yes
+2, yeah
+2, yes please
+2, why not
+2, sure why not
+2, you are correct
+2, you're right
+2, sure let us do that
+2, alright let us do that
+2, sure let's do that
+2, alright let's do that
+2, okay let's do that
+2, move around
+2, move forward
+2, move please
+2, make a move
+2, let us get moving
+2, let's move
+2, can i pet you
+2, can i touch you
+2, can i hug you
+2, can i pet you please
+2, may i cuddle you please
+2, may i hug you
+2, hello can i pet you
+2, let's cuddle
+2, let's hug
+2, follow me please
+2, please follow me
+2, can you follow me
+2, may you follow me
+2, come with me please
+2, please come with me
+2, can you walk please
+2, can you show me how you wander
+2, would you please walk
+2, go ahead and walk
+2, please run
+2, can you run
+2, start running please
+2, let's go for a run
+2, i'm going for a run want to join
+2, please run to me
+2, can you run to me
+2, that's enough thank you
+2, could you please stop
+2, please stop this
+2, please give this thing an end
+2, speak please
+2, bark please
+2, tell me something
+2, can you tell me something
+2, can you talk to me please
+2, can you say something
+2, paw please boy
+2, give me your paw dog
+2, give me your paw please
+2, give me a high five boy
+2, please give me your paw
+2, high five boy
+2, boy high five
+2, come over
+2, come over dog
+2, come here boy
+2, please come to me dog
+2, please come over
+2, boy please come to me
+2, please come over here
+2, please join me boy
