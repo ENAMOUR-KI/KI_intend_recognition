@@ -72,8 +72,8 @@ class Broker:
 		])
         
         if rc == 0:
-                print('Connection succeeded')
-                self.connected = True
+            print('Connection succeeded')
+            self.connected = True
         else:
             print('Connection failed')
         
@@ -146,14 +146,14 @@ class Broker:
     def __loop_start(self):
         self.client.loop_start()
         
-        while self.connected != True:
+        while not self.connected:
             print('Waiting for connection...')
             time.sleep(0.1)
 
     def evaluation_loop(self, path='./data/', chunksize=1000000):
         self.__loop_start()
+        
         time.sleep(0.1)
-
         for i, file in enumerate(os.listdir(path)):
             # self.session_id = f'session{i}'
 
