@@ -34,7 +34,7 @@ class Broker:
         self.port = port
         self.site_id = site_id
         self.request_id = 'request-1'
-        self.session_id = 'session-1'
+        self.session_id = 0
         self.client = mqtt.Client()
         self.client.on_connect = self.on_connect
         self.client.on_disconnect = self.on_disconnect
@@ -82,21 +82,19 @@ class Broker:
         '''Called when disconnected from MQTT broker.'''
         client.reconnect()
 
-
-    def on_message(self, client, userdata, msg: mqtt.MQTTMessage, show_not_for_me=False):
+    def on_message(self, client, userdata, msg: mqtt.MQTTMessage):
         '''Called each time a message is received on a subscribed topic.'''
         payload = {}
         topic = str(msg.topic).strip()
 
         if hasattr(msg, 'payload') and msg.payload:
             try:
-                siteId = payload.get('siteId')
-                is_for_me = siteId == self.site_id
+                # siteId = payload.get('siteId')
+                # is_for_me = siteId == self.site_id
 
-                if not is_for_me:
-                    if show_not_for_me:
-                        print('Message received but was not for me')
-                    return False
+                # if not is_for_me:
+                #    print('Message received but was not for me')
+                #    return False
 
                 payload = json.loads(msg.payload.decode('UTF-8'))
 
@@ -142,7 +140,6 @@ class Broker:
             if callable(self.audio_callback):
                 self.audio_callback(pl)
 
-
     def __loop_start(self):
         self.client.loop_start()
         
@@ -173,7 +170,7 @@ class Broker:
 
                     self.client.publish(self.ON_ASR_STOP_LISTENING, json.dumps({'siteId': self.site_id, 'sessionId': self.session_id}))
                     
-                    for i in range(500):
+                    for i in range(100):
                         if self.intent_received:
                             break
                         time.sleep(0.05)
@@ -182,10 +179,7 @@ class Broker:
                     self.intent_received = False
 
     def loop(self):
-        self.__loop_start()
-        while True:
-            if self.intent_received:
-		self.intent_received = False
+        self.client.loop_forever()
 
     def message_loop(self):
         self.__loop_start()
