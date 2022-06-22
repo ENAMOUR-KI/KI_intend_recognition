@@ -50,7 +50,9 @@ def augment(input_folder, output_folder, num_samples=1000):
             audio_data = original_data.copy()
 
             np.random.seed(seed)
-            choices = np.random.randint(0, 2, 3)
+            choices = np.zeros(3)
+            while np.sum(choices) > 0:
+                choices = np.random.randint(0, 2, 3)
 
             # Random pitch
             if choices[0] == 1:
