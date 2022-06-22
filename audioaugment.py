@@ -24,7 +24,7 @@ def augment(input_folder, output_folder, num_samples=1000):
         os.makedirs(output_folder)
 
     # Loop through all .wav files in input folder
-    files = list(Path('.').glob(f'{input_folder}/*.wav'))
+    files = list(Path(input_folder).glob(*.wav'))
     num_files = len(files)
     augments_per_file = num_samples // num_files
 
