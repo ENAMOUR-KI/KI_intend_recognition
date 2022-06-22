@@ -51,7 +51,7 @@ def augment(input_folder, output_folder, num_samples=1000):
 
             np.random.seed(seed)
             choices = np.zeros(3)
-            while np.sum(choices) > 0:
+            while not np.sum(choices) > 0:
                 choices = np.random.randint(0, 2, 3)
 
             # Random pitch
