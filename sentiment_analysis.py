@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     root_path = os.path.dirname(os.path.abspath(__file__))
     dataset_path = os.path.join(root_path, "dataset/sentences.ini")
-    save_path = os.path.join(root_path, 'dataset/sentiments.json')
+    save_path = os.path.join(root_path, 'dataset/sentiments_new.json')
 
     # define pretrained flair model
     flair_sentiment = flair.models.TextClassifier.load('en-sentiment')
