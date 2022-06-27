@@ -66,5 +66,5 @@ responses:
 
 
 entities:
-  - turn
-  - move
+  - trend
+  - direction
