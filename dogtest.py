@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @Date : 05/04/2022
+# @Project: ENAMOUR
+# @AUTHOR : Marcel Rinder
+
 # Set Rhasspy MQTT to External
 
 import os
