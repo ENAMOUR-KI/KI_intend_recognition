@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @Date : 05/11/2022
+# @Project: ENAMOUR
+# @AUTHOR : Marcel Rinder
+
 """
 Source: wav2vec 2.0 for speech emotion recognition
 """
